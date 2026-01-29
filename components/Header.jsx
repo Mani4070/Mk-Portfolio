@@ -31,7 +31,7 @@ export default function Header() {
                 <div className="absolute inset-3 border-2 border-emerald-600/30 dark:border-emerald-500/20 transform rotate-30 group-hover:rotate-0 transition-transform duration-700"></div>
 
                 {/* Main container with glassmorphism */}
-                <div className="relative bg-gradient-to-br from-teal-600/25 via-emerald-600/20 to-cyan-600/20 dark:from-teal-500/18 dark:via-emerald-500/15 dark:to-cyan-500/15 backdrop-blur-xl rounded-3xl p-1 shadow-2xl border border-white/30 dark:border-white/10 w-40 h-52 transform group-hover:shadow-3xl transition-all duration-300" style={{marginTop:"30px"}}>
+                <div className="relative bg-gradient-to-br from-teal-600/25 via-emerald-600/20 to-cyan-600/20 dark:from-teal-500/18 dark:via-emerald-500/15 dark:to-cyan-500/15 backdrop-blur-xl rounded-3xl p-1 shadow-2xl border border-white/30 dark:border-white/10 w-40 h-52 transform group-hover:shadow-3xl transition-all duration-300" style={{marginTop:"30px",marginBottom:"20px"}}>
                     <div className="w-full h-full rounded-2xl bg-gradient-to-br from-white/50 via-gray-100/40 to-white/50 dark:from-gray-900/50 dark:via-gray-800/40 dark:to-gray-900/50 flex items-center justify-center relative overflow-hidden border border-white/40 dark:border-white/10">
                         {/* Gradient mesh background */}
                         <div className="absolute inset-0 bg-gradient-to-br from-teal-400/30 via-transparent to-emerald-400/30 dark:from-teal-500/20 dark:via-transparent dark:to-emerald-500/20"></div>
